@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Copyright from '../components/Copyright'
 import Formulario from '../components/Formulario'
 import GridProdutos from '../components/GridProdutos'
@@ -10,6 +11,10 @@ export default function Home() {
   return(
 
     <>
+      <Head>
+        <title>AluraGeek</title>
+        <meta name='Loja AluraGeek' content='A maior loja de artigos Geeks do Brasil!' />
+      </Head>
       <Navbar />
       <main>
         <hero>
