@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { BsArrowRight } from "react-icons/bs";
-import ImagemCard from '../../public/img/arcade.jpg'
 
 
 export default function GridProdutos(props) {

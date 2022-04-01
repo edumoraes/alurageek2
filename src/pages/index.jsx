@@ -1,10 +1,14 @@
 import Head from 'next/head'
-import Copyright from '../components/Copyright'
-import Formulario from '../components/Formulario'
-import GridProdutos from '../components/GridProdutos'
-import LinksFooter from '../components/LinksFooter'
-import Navbar from '../components/Navbar'
-import Slider from '../components/Slider'
+import Copyright from '../components/copyright/Copyright'
+import Formulario from '../components/formulario/Formulario'
+import GridProdutos from '../components/gridprodutos/GridProdutos'
+import LinksFooter from '../components/linksfooter/LinksFooter'
+import Navbar from '../components/navbar/Navbar'
+import Slider from '../components/slider/Slider'
+
+
+import "swiper/css/bundle";
+
 
 
 export default function Home() {

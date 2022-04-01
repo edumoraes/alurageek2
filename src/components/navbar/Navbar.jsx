@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Logo from '../../public/img/Logo.svg'
+import Logo from '../../../public/img/Logo.svg'
 import { BsSearch } from "react-icons/bs";
-import styles from '../styles/Navbar.module.css'
+import styles from './Navbar.module.css'
 
 
 export default function Cabecalho() {
