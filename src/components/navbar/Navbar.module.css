@@ -11,6 +11,24 @@
   background-color: #ffffff;
 }
 
+.logo {
+  width: 6.25rem;
+  height: auto;
+}
+
 .esconder {
   display: none;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+  .logo {
+    width: 11rem;
+    height: auto;
+  }
+
+
+
+
 }

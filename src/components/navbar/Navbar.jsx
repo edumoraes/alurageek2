@@ -11,8 +11,8 @@ export default function Cabecalho() {
       <nav className="container">
       <div className={styles.containerNav}>
         
-        <div className="logo">
-          <Image src={Logo} alt="AluraGeek" />
+        <div>
+          <img src="/img/Logo.svg" alt="AluraGeek" className={styles.logo} />
         </div>
         
         <div className="pesquisa">
