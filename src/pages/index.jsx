@@ -18,6 +18,7 @@ export default function Home() {
       <Head>
         <title>AluraGeek</title>
         <meta name='Loja AluraGeek' content='A maior loja de artigos Geeks do Brasil!' />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
       </Head>
       <Navbar />
       <main>
