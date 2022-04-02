@@ -27,36 +27,20 @@ export default function Slider(props) {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
 
         <SwiperSlide>
+          <div className="gradiente-background"></div>
           <div className="container container-slide">
-            <h1>Dezembro Promocional</h1>
-            <p>Produtos selecionados com 33% de desconto</p>
+            <h1 className="titulo-h1 font-color-white">Dezembro Promocional</h1>
+            <p className="subtitulo font-color-white">Produtos selecionados com 33% de desconto</p>
             <button className="button-primario">Ver Consoles</button>
           </div>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src="/img/hero.jpg" />
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="container container-slide">
-            <h1>Dezembro Promocional</h1>
-            <p>Produtos selecionados com 33% de desconto</p>
-            <button className="button-primario">Ver Consoles</button>
-          </div>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-         <div className="container container-slide">
-            <h1>Dezembro Promocional</h1>
-            <p>Produtos selecionados com 33% de desconto</p>
-            <button className="button-primario">Ver Consoles</button>
-          </div>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-        </SwiperSlide>
-
 
       </Swiper>
     
