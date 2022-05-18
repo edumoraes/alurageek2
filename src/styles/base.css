@@ -57,6 +57,16 @@ button:hover {
   background-color: var(--azul-20);
 }
 
+.link {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--azul-100);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
 .titulo-h1,
 .titulo-h2 {
   font-family: 'Raleway', sans-serif;
